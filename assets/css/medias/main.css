@@ -1,0 +1,53 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 768px) {
+    .perfil__content {
+        position: relative;
+        padding: 100px 50px;
+    }
+
+    .perfil__img {
+        left: 50px;
+    }
+
+    .perfil__username {
+        font-size: 2em;
+    }
+
+    .perfil__campo {
+        font-size: 0.8em;
+        padding: 7px 9px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .perfil__campos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .perfil__btn--editar img {
+        width: 20px;
+    }
+
+    .perfil__content {
+        padding: 70px 50px;
+    }
+
+    .perfil__img {
+        top: -50px;
+        width: 100px;
+    }
+
+    .perfil__username {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .perfil__username {
+        font-size: 1.2em;
+    }
+}

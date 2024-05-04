@@ -1,0 +1,111 @@
+@charset 'UTF-8';
+
+.perfil__form {
+    position: relative;
+    background-color: var(--black3);
+    width: 400px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: var(--shadow);
+}
+
+.perfil__form::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+.perfil__form::-webkit-scrollbar-thumb {
+    background-color: var(--color1);
+    border-radius: 5pc;
+}
+
+.perfil__form::backdrop {
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.form__btn--close {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    display: flex;
+    background-color: var(--black4);
+    padding: 7px;
+    border-radius: 7px;
+    transition: var(-transition);
+    cursor: pointer;
+}
+
+.form__btn--close:hover {
+    transform: scale(0.95);
+}
+
+.form__titulo {
+    text-align: center;
+    color: var(--white1);
+    font: normal 500 1.8em var(--font1);
+    margin-bottom: 20px;
+}
+
+.form__campo {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form__label {
+    display: block;
+    color: var(--white1);
+    font: normal 400 1em var(--font2);
+    margin-bottom: 5px;
+}
+
+.form__label--file {
+    display: flex;
+    gap: 5px;
+    background-color: var(--color1);
+    color: var(--white2);
+    font: normal 300 1em var(--font1);
+    width: fit-content;
+    padding: 7px 9px;
+    border-radius: 7px;
+}
+
+.form__input, .form__text {
+    background-color: var(--black2);
+    color: var(--white1);
+    font: normal 400 0.90em var(--font1);
+    width: 100%;
+    padding: 9px 5px;
+    border: var(--border);
+    border-radius: 5px;
+    transition: var(--transition);
+}
+
+.form__input:focus, .form__input:focus-within, .form__text:focus, .form__text:focus-within {
+    border-color: var(--white3) !important;
+    outline: 0;
+    box-shadow: var(--shadow);
+}
+
+.form__text {
+    resize: none;
+    height: 150px;
+}
+
+.form__btn {
+    background-color: var(--color1);
+    color: var(--white1);
+    font: normal 400 1em var(--font2);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    opacity: 0.7;
+}

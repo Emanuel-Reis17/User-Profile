@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 1024px) {
+    .perfil__form {
+        height: 500px;
+    }
+
+    .form__label {
+        font-size: 0.90em;
+    }
+    
+    .form__input, .form__text {
+        font-size: 0.85em;
+        padding: 7px 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .perfil__form {
+        width: auto;
+        height: 400px;
+        margin: auto 30px;
+    }
+
+    .form__titulo {
+        font-size: 1.4em;
+    }
+}
