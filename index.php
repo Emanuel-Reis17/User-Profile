@@ -6,6 +6,7 @@ if (isset($_POST['confirmar']) and sizeof($_POST) > 0)
 {
     $fotoAtual = consultar("SELECT `foto` FROM `usuarios` WHERE id = 1")[0];
     $path = $fotoAtual['foto'];
+    
     if (isset($_FILES['foto']) and $_FILES['foto']['error'] == 0)
     {
         if ($fotoAtual['foto']) 
